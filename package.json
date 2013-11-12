@@ -1,7 +1,8 @@
 {
   "name": "voxel-sphero",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Sphero in voxeljs",
+  "author": "Morgan 'ARR!' Allen",
   "main": "index.js",
   "scripts": {
     "dev": "cd example && ../node_modules/.bin/beefy example.js --live -- -d",
@@ -11,13 +12,15 @@
     "voxeljs",
     "sphero"
   ],
-  "author": "Morgan 'ARR!' Allen",
   "license": "BSD-2-Clause",
-  "dependencies": {},
   "devDependencies": {
     "beefy": "~0.4.5",
     "voxel-engine": "~0.18.4",
     "voxel-player": "~0.1.0",
     "rocker-controller": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganrallen/voxel-sphero"
   }
 }
